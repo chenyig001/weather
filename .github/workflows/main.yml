@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Get Weather'
-        run: python ./weather.sh
+        run: python ./weather.py
