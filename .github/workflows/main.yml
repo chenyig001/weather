@@ -3,4 +3,11 @@ name: 'GitHub Actions Weather Bot'
 on:
   push:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Get Weather'
+        run: python ./weather.sh
