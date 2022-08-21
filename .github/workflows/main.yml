@@ -7,7 +7,9 @@ on:
 
 jobs:
   bot:
-    runs-on: python:3.7
+    runs-on: ubuntu-latest
     steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v1
       - name: 'Get Weather'
         run: python weather.sh
