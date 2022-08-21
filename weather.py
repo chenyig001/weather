@@ -10,7 +10,7 @@ template_id = '7WcvYmT44jwWUbAR0sXKSUzXIXfzrveZKREvO2KsdLA'
 access_token_url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={}&secret={}'.format(app_id,app_secret)
 res = requests.get(access_token_url).json()
 access_token = res['access_token']
-users = ['ozBHL59pCNzQaGm3zhapKlwVYAUc', 'ozBHL57VU9iTx4-c89Hq1JKk12Yw']
+users = ['ozBHL59pCNzQaGm3zhapKlwVYAUc', 'ozBHL53rKBkYrelTJXdxP8ifYx5k']
 
 
 def weather():
