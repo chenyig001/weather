@@ -12,4 +12,4 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
       - name: 'Get Weather'
-        run: python weather.sh
+        run: python weather.py
