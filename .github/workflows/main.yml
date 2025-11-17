@@ -3,6 +3,7 @@ name: 'GitHub Actions Weather Bot'
 on:
   schedule:
     - cron: '50 23 * * *'
+  workflow_dispatch:  # 这个必须要有，才能手动运行
 
 
 jobs:
